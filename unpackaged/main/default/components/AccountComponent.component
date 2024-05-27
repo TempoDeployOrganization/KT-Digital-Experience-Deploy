@@ -1,0 +1,27 @@
+<apex:component controller="AccountComponentController">
+    <apex:attribute name="title" description="Title of the component" type="String" required="false"/>
+    <apex:form >
+        <apex:pageMessages />
+        
+        <h2>{!title}</h2>
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="1">
+                <apex:inputField value="{!newAccount.Name}" required="true" />
+                <apex:inputField value="{!newAccount.Phone}" />
+                <apex:inputField value="{!newAccount.Industry}" />
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!saveAccount}" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+
+        <h2>Account List</h2>
+        <apex:pageBlock >
+            <apex:pageBlockTable value="{!accounts}" var="acc">
+                <apex:column value="{!acc.Name}" headerValue="Name"/>
+                <apex:column value="{!acc.Phone}" headerValue="Phone"/>
+                <apex:column value="{!acc.Industry}" headerValue="Industry"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:component>
