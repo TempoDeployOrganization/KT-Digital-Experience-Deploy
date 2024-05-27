@@ -266,11 +266,4 @@
         </notificationChannels>
         <notificationType>wave_condition</notificationType>
     </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>enablement_coaching_feedback_ready</notificationType>
-    </notificationTypeSettings>
 </NotificationTypeConfig>
