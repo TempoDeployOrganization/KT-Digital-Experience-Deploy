@@ -3,17 +3,17 @@
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Chatter</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Commerce</application>
@@ -38,7 +38,7 @@
     <applicationVisibilities>
         <application>standard__Insights</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningBolt</application>
@@ -53,12 +53,12 @@
     <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSalesConsole</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningScheduler</application>
@@ -1399,11 +1399,11 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AccountBrand</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AlternativePaymentMethod</tab>
