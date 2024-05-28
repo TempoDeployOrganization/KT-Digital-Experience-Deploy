@@ -1,0 +1,72 @@
+{
+  "appPageId" : "3c5ba9b7-0316-4847-b969-138a435ad293",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b06765ad-0845-4b59-9cbf-3d4c204e7f1d",
+  "label" : "Apex Page POC",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8aacde58-7fb8-4bcf-8643-461517bab086",
+          "columns" : [ {
+            "UUID" : "6c0febf3-435f-4781-a430-7b10c2e1ec3f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8aacde58-7fb8-4bcf-8643-461517bab086",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "height" : "300",
+            "pageName" : "ApexPagePOC",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:visualforcePage",
+          "id" : "8ddf9d58-6366-4bec-bf09-0c6794f76a50",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6c0febf3-435f-4781-a430-7b10c2e1ec3f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bd6a2fbd-178f-4c93-b8c1-6852b8bc2612",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Apex Page POC"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "57b4eee5-3389-4244-a1e4-71974026061d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fa5d85ae-2d81-4b75-8ad8-86c8593a4af6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-apex-page-poc"
+}
