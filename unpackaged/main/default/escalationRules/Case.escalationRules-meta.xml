@@ -4,11 +4,17 @@
         <fullName>Escalation Rules POC</fullName>
         <active>true</active>
         <ruleEntry>
-            <businessHoursSource>Case</businessHoursSource>
+            <businessHours>Default</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
             <criteriaItems>
                 <field>Case.IsClosed</field>
                 <operation>equals</operation>
                 <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.Email</field>
+                <operation>equals</operation>
+                <value>test@gmail.com</value>
             </criteriaItems>
             <escalationAction>
                 <minutesToEscalation>60</minutesToEscalation>
