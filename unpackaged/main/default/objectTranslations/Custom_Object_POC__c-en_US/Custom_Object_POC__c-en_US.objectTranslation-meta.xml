@@ -8,5 +8,6 @@
         <plural>true</plural>
         <value>Custom Object POCs</value>
     </caseValues>
+    
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
