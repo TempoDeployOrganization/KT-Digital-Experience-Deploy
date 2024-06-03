@@ -4,6 +4,6 @@
     <forceLogout>false</forceLogout>
     <profile>profile poc</profile>
     <sessionPersistence>false</sessionPersistence>
-    <sessionTimeout>240</sessionTimeout>
+    <sessionTimeout>90</sessionTimeout>
     <sessionTimeoutWarning>false</sessionTimeoutWarning>
 </ProfileSessionSetting>
