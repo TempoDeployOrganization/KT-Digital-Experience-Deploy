@@ -2,8 +2,8 @@
 <ProfileSessionSetting xmlns="http://soap.sforce.com/2006/04/metadata">
     <externalCommunityUserIdentityVerif>false</externalCommunityUserIdentityVerif>
     <forceLogout>false</forceLogout>
-    <profile>Profile POC</profile>
+    <profile>profile poc</profile>
     <sessionPersistence>false</sessionPersistence>
-    <sessionTimeout>15</sessionTimeout>
+    <sessionTimeout>240</sessionTimeout>
     <sessionTimeoutWarning>false</sessionTimeoutWarning>
 </ProfileSessionSetting>
