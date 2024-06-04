@@ -1,0 +1,7 @@
+<apex:page controller="MyController">
+    <h1>Visualforce Page</h1>
+    <p>{!myVariable}</p>
+    <apex:form >
+        <apex:commandButton action="{!myMethod}" value="Click me!" />
+    </apex:form>
+</apex:page>
