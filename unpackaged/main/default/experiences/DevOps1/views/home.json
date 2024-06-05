@@ -43,6 +43,17 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "showCreateNewCalendar" : false,
+        "showOtherCalendars" : false,
+        "showSidebar" : true
+      },
+      "componentName" : "forceCommunity:calendar",
+      "id" : "aae5ac91-e65c-4361-8be3-74ec3f57f7d7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
         "enableInlineEdit" : true,
         "filterName" : "MyOpenCases",
         "layout" : "STANDARD",
