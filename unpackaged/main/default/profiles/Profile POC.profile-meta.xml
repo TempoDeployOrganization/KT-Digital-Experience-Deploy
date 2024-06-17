@@ -5235,9 +5235,6 @@
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CustomMetadataType__mdt-Custom Metadata Type Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Custom_Object_POC__c-Custom Object POC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
