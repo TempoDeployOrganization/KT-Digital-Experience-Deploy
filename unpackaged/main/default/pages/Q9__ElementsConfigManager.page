@@ -1,3 +1,0 @@
-<apex:page > 
-    <apex:outputText >This component is not in use anymore. Please navigate to Elements Settings page.</apex:outputText>
-</apex:page>
