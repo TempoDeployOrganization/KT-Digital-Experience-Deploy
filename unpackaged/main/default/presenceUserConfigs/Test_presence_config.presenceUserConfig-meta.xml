@@ -2,7 +2,7 @@
 <PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignments>
         <profiles>
-            <profile>custom: sales profile</profile>
+            <profile>admin</profile>
         </profiles>
     </assignments>
     <capacity>36</capacity>
