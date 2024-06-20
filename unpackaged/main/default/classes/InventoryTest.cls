@@ -1,4 +1,8 @@
 @IsTest
+    // Inner class to represent an item in the inventory
+    // Inner class to represent an item in the inventory
+    // Inner class to represent an item in the inventory
+
 public class InventoryTest {
     @IsTest
     static void testAddItem() {
