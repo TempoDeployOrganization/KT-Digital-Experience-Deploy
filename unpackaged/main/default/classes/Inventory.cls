@@ -1,12 +1,5 @@
 public class Inventory {
     // Inner class to represent an item in the inventory
-
-    // Inner class to represent an item in the inventory
-    // Inner class to represent an item in the inventory
-    // Inner class to represent an item in the inventory
-    // Inner class to represent an item in the inventory
-    // Inner class to represent an item in the inventory
-    // Inner class to represent an item in the inventory
     public class Item {
         public String name { get; set; }
         public Integer quantity { get; set; }
